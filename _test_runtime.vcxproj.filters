@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{9fec6f49-07b5-4496-9402-f6fe0a6d8f92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\ksh_runtime.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_smInfo.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_ioOperation.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_framework.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_eventOperation.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_cupti_functions.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_cupti_cuptiObj.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_cupti_callbacks.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_cupti_api.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_common.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_class_kernelParams.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_class_kernelObj.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ksh_class_definitions.cuh">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\base.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="_test_runtime.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="scripts.txt" />
+  </ItemGroup>
+</Project>

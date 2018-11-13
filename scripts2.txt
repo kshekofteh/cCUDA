@@ -1,0 +1,2 @@
+export PATH=$PATH:/home/kshekofteh/codes/nvidia/common/inc:/opt/cuda-8.0/lib64:/usr/local/cuda/bin:/opt/cuda-8.0/bin:/opt/cuda-8.0/extras/CUPTI/include/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cuda-8.0/lib64:/opt/cuda-8.0/extras/CUPTI/include/:/opt/cuda-8.0/extras/CUPTI/lib64

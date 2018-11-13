@@ -1,0 +1,1 @@
+nvcc -o test -O2 _test_runtime.cu -I /usr/local/cuda/extras/CUPTI/include,/home/kshekofteh/codes/nvidia/common/inc,/home/kshekofteh/codes/common,.
